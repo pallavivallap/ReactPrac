@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.bg {
+  background-image: url("https://img.freepik.com/free-vector/white-prism-background-design-vector_53876-86339.jpg?t=st=1715678979~exp=1715682579~hmac=1b6817b8287e489a7a53718c133686c8c923654910eea5c5454623f3548d98e3&w=740");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form {
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  height: 100%;
+  width: 60%;
   color: white;
+  padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputbox {
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(229, 229, 247);
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+  font-size: 12.8px;
+  color: rgb(170, 176, 208);
 }
+
+.submit {
+  background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2148997880.jpg?t=st=1715754659~exp=1715758259~hmac=a9d1fd3ef628a93526ac6cf05430e66339644c1695d3ef75a2d9c3bf568ed252&w=1060");
+  width: 100px;
+  height: 35px;
+  border: 1px solid rgb(15, 180, 246);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 0 8px rgb(0, 217, 255);
+}
+
+.submit:active {
+  background-image: url("https://img.freepik.com/free-vector/abstract-futuristic-wallpaper-with-shiny-lines_23-2148394402.jpg?t=st=1715754883~exp=1715758483~hmac=17efd4f994ccdbc148662a778d9af4470f2d18573a264c026ae74d7d6d432758&w=900");
+}
+
+
